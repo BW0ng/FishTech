@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@graphql-tools/schema": "^8.2.0",
+    "apollo-datasource-rest": "^3.2.0",
+    "apollo-server": "^3.3.0",
+    "apollo-server-express": "^2.21.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.3",
+    "yarn": "^1.22.11"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js --exec babel-node",
+    "debug": "nodemon --inspect ./index.js --exec babel-node"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.12"
+  }
+}
