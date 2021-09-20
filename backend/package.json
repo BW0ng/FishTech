@@ -14,10 +14,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./index.js --exec babel-node",
-    "debug": "nodemon --inspect ./index.js --exec babel-node"
+    "build": "yarn run clean && yarn run build-server",
+    "build-server": "babel -d ./build ./src -s",
+    "clean": "rm -rf build && mkdir build",
+    "dev": "nodemon ./src/index.js --exec babel-node",
+    "start": "node -r dotenv/config ./build/index.js"
   },
   "devDependencies": {
+    "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",
     "@babel/node": "^7.15.4",
     "@babel/preset-env": "^7.15.6",

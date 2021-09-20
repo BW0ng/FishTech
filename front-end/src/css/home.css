@@ -1,0 +1,22 @@
+.home-page {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: "flex";
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-primary {
+    margin: 10px
+}
+
+html, body, #root, #root>div {
+    height: 100%;
+    margin: 0;
+  }

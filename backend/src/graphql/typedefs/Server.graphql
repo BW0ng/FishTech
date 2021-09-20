@@ -1,0 +1,4 @@
+type Server {
+  hostNames: [String]
+  ips: [String]
+}

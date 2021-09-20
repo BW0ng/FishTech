@@ -1,0 +1,18 @@
+type Record { 
+  createdDate: String
+  updatedDate: String
+  expiresDate: String
+  registrant: Contact
+  administrativeContact: Contact
+  technicalContact: Contact
+  domainName: String
+  nameServers: Server
+  status: String
+  registrarName: String
+  registrarIANAID: String
+  whoisServer: String
+  customField2Name: String
+  customField3Name: String
+  customField2Value: String
+  customField3Value: String
+}

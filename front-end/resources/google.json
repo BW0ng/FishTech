@@ -1,0 +1,50 @@
+{
+    "whoIsByDomain": {
+        "WhoisRecord": {
+            "createdDate": "1997-09-15T07:00:00+0000",
+            "expiresDate": "2028-09-13T07:00:00+0000",
+            "registrant": {
+                "organization": "Google LLC",
+                "state": "CA",
+                "country": "UNITED STATES",
+                "countryCode": "US",
+                "__typename": "Contact"
+            },
+            "administrativeContact": {
+                "organization": "Google LLC",
+                "state": "CA",
+                "country": "UNITED STATES",
+                "countryCode": "US",
+                "__typename": "Contact"
+            },
+            "technicalContact": {
+                "organization": "Google LLC",
+                "state": "CA",
+                "country": "UNITED STATES",
+                "countryCode": "US",
+                "__typename": "Contact"
+            },
+            "domainName": "google.com",
+            "nameServers": {
+                "hostNames": [
+                    "ns4.google.com",
+                    "ns2.google.com",
+                    "ns1.google.com",
+                    "ns3.google.com"
+                ],
+                "ips": [],
+                "__typename": "Server"
+            },
+            "status": "clientUpdateProhibited clientTransferProhibited clientDeleteProhibited serverUpdateProhibited serverTransferProhibited serverDeleteProhibited",
+            "registrarName": "MarkMonitor, Inc.",
+            "registrarIANAID": "292",
+            "whoisServer": "whois.markmonitor.com",
+            "customField2Name": "RegistrarContactPhone",
+            "customField3Name": "RegistrarURL",
+            "customField2Value": "+1.2083895770",
+            "customField3Value": "http://www.markmonitor.com",
+            "__typename": "Record"
+        },
+        "__typename": "WhoisRecord"
+    }
+}
