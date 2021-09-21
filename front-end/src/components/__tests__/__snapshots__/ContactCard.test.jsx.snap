@@ -1,0 +1,489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactCard renders correctly with full data output 1`] = `
+<div
+  className="accordion-item"
+>
+  <h2
+    className="accordion-header"
+  >
+    <button
+      aria-expanded={false}
+      className="accordion-button collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      Contact Information
+    </button>
+  </h2>
+  <div
+    aria-expanded={null}
+    className="accordion-collapse collapse"
+  >
+    <div
+      className="accordion-body"
+    >
+      <div
+        className="accordion"
+      >
+        <div
+          className="accordion-item"
+        >
+          <h2
+            className="accordion-header"
+          >
+            <button
+              aria-expanded={false}
+              className="accordion-button collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              Administration Contact
+            </button>
+          </h2>
+          <div
+            aria-expanded={null}
+            className="accordion-collapse collapse"
+          >
+            <div
+              className="accordion-body"
+            >
+              <strong>
+                Organization: 
+              </strong>
+              Organization
+              <br />
+              <strong>
+                State: 
+              </strong>
+              State
+              <br />
+              <strong>
+                Country: 
+              </strong>
+              Country
+              <br />
+            </div>
+          </div>
+        </div>
+        <div
+          className="accordion-item"
+        >
+          <h2
+            className="accordion-header"
+          >
+            <button
+              aria-expanded={false}
+              className="accordion-button collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              Technical Contact
+            </button>
+          </h2>
+          <div
+            aria-expanded={null}
+            className="accordion-collapse collapse"
+          >
+            <div
+              className="accordion-body"
+            >
+              <strong>
+                Organization: 
+              </strong>
+              Organization
+              <br />
+              <strong>
+                State: 
+              </strong>
+              State
+              <br />
+              <strong>
+                Country: 
+              </strong>
+              Country
+              <br />
+            </div>
+          </div>
+        </div>
+        <div
+          className="accordion-item"
+        >
+          <h2
+            className="accordion-header"
+          >
+            <button
+              aria-expanded={false}
+              className="accordion-button collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              Registrant Contact
+            </button>
+          </h2>
+          <div
+            aria-expanded={null}
+            className="accordion-collapse collapse"
+          >
+            <div
+              className="accordion-body"
+            >
+              <strong>
+                Organization: 
+              </strong>
+              Organization
+              <br />
+              <strong>
+                State: 
+              </strong>
+              State
+              <br />
+              <strong>
+                Country: 
+              </strong>
+              Country
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContactCard renders correctly with missing the administrativeContact 1`] = `
+<div
+  className="accordion-item"
+>
+  <h2
+    className="accordion-header"
+  >
+    <button
+      aria-expanded={false}
+      className="accordion-button collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      Contact Information
+    </button>
+  </h2>
+  <div
+    aria-expanded={null}
+    className="accordion-collapse collapse"
+  >
+    <div
+      className="accordion-body"
+    >
+      <div
+        className="accordion"
+      >
+        <div
+          className="accordion-item"
+        >
+          <h2
+            className="accordion-header"
+          >
+            <button
+              aria-expanded={false}
+              className="accordion-button collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              Technical Contact
+            </button>
+          </h2>
+          <div
+            aria-expanded={null}
+            className="accordion-collapse collapse"
+          >
+            <div
+              className="accordion-body"
+            >
+              <strong>
+                Organization: 
+              </strong>
+              Organization
+              <br />
+              <strong>
+                State: 
+              </strong>
+              State
+              <br />
+              <strong>
+                Country: 
+              </strong>
+              Country
+              <br />
+            </div>
+          </div>
+        </div>
+        <div
+          className="accordion-item"
+        >
+          <h2
+            className="accordion-header"
+          >
+            <button
+              aria-expanded={false}
+              className="accordion-button collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              Registrant Contact
+            </button>
+          </h2>
+          <div
+            aria-expanded={null}
+            className="accordion-collapse collapse"
+          >
+            <div
+              className="accordion-body"
+            >
+              <strong>
+                Organization: 
+              </strong>
+              Organization
+              <br />
+              <strong>
+                State: 
+              </strong>
+              State
+              <br />
+              <strong>
+                Country: 
+              </strong>
+              Country
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContactCard renders correctly with missing the registrant 1`] = `
+<div
+  className="accordion-item"
+>
+  <h2
+    className="accordion-header"
+  >
+    <button
+      aria-expanded={false}
+      className="accordion-button collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      Contact Information
+    </button>
+  </h2>
+  <div
+    aria-expanded={null}
+    className="accordion-collapse collapse"
+  >
+    <div
+      className="accordion-body"
+    >
+      <div
+        className="accordion"
+      >
+        <div
+          className="accordion-item"
+        >
+          <h2
+            className="accordion-header"
+          >
+            <button
+              aria-expanded={false}
+              className="accordion-button collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              Administration Contact
+            </button>
+          </h2>
+          <div
+            aria-expanded={null}
+            className="accordion-collapse collapse"
+          >
+            <div
+              className="accordion-body"
+            >
+              <strong>
+                Organization: 
+              </strong>
+              Organization
+              <br />
+              <strong>
+                State: 
+              </strong>
+              State
+              <br />
+              <strong>
+                Country: 
+              </strong>
+              Country
+              <br />
+            </div>
+          </div>
+        </div>
+        <div
+          className="accordion-item"
+        >
+          <h2
+            className="accordion-header"
+          >
+            <button
+              aria-expanded={false}
+              className="accordion-button collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              Technical Contact
+            </button>
+          </h2>
+          <div
+            aria-expanded={null}
+            className="accordion-collapse collapse"
+          >
+            <div
+              className="accordion-body"
+            >
+              <strong>
+                Organization: 
+              </strong>
+              Organization
+              <br />
+              <strong>
+                State: 
+              </strong>
+              State
+              <br />
+              <strong>
+                Country: 
+              </strong>
+              Country
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContactCard renders correctly with missing the technicalContact 1`] = `
+<div
+  className="accordion-item"
+>
+  <h2
+    className="accordion-header"
+  >
+    <button
+      aria-expanded={false}
+      className="accordion-button collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      Contact Information
+    </button>
+  </h2>
+  <div
+    aria-expanded={null}
+    className="accordion-collapse collapse"
+  >
+    <div
+      className="accordion-body"
+    >
+      <div
+        className="accordion"
+      >
+        <div
+          className="accordion-item"
+        >
+          <h2
+            className="accordion-header"
+          >
+            <button
+              aria-expanded={false}
+              className="accordion-button collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              Administration Contact
+            </button>
+          </h2>
+          <div
+            aria-expanded={null}
+            className="accordion-collapse collapse"
+          >
+            <div
+              className="accordion-body"
+            >
+              <strong>
+                Organization: 
+              </strong>
+              Organization
+              <br />
+              <strong>
+                State: 
+              </strong>
+              State
+              <br />
+              <strong>
+                Country: 
+              </strong>
+              Country
+              <br />
+            </div>
+          </div>
+        </div>
+        <div
+          className="accordion-item"
+        >
+          <h2
+            className="accordion-header"
+          >
+            <button
+              aria-expanded={false}
+              className="accordion-button collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              Registrant Contact
+            </button>
+          </h2>
+          <div
+            aria-expanded={null}
+            className="accordion-collapse collapse"
+          >
+            <div
+              className="accordion-body"
+            >
+              <strong>
+                Organization: 
+              </strong>
+              Organization
+              <br />
+              <strong>
+                State: 
+              </strong>
+              State
+              <br />
+              <strong>
+                Country: 
+              </strong>
+              Country
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

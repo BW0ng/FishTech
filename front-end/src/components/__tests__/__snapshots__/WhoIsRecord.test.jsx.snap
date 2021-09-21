@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WhoisRecord useQuery renders without error with data null 1`] = `
+<h1>
+  Loading
+</h1>
+`;

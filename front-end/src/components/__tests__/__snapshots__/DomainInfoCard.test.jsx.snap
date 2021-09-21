@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DomainInfoCard renders correctly with full data output 1`] = `
+<div
+  className="accordion-item"
+>
+  <h2
+    className="accordion-header"
+  >
+    <button
+      aria-expanded={false}
+      className="accordion-button collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      Domain Information
+    </button>
+  </h2>
+  <div
+    aria-expanded={null}
+    className="accordion-collapse collapse"
+  >
+    <div
+      className="accordion-body"
+    >
+      <strong>
+        Name: 
+      </strong>
+      DomainName
+      <br />
+      <br />
+      <strong>
+        Domain Status: 
+      </strong>
+      <br />
+      <span>
+         
+        status1
+        <br />
+      </span>
+      <span>
+         
+        status2
+        <br />
+      </span>
+      <span>
+         
+        status3
+        <br />
+      </span>
+      <span>
+         
+        status4
+        <br />
+      </span>
+      <br />
+      <br />
+      <strong>
+        Nameservers: 
+      </strong>
+      <br />
+      <span>
+         
+        server1
+        <br />
+      </span>
+      <span>
+         
+        server2
+        <br />
+      </span>
+      <span>
+         
+        server3
+        <br />
+      </span>
+      <span>
+         
+        server4
+        <br />
+      </span>
+      <br />
+      <br />
+      <h3>
+        Dates
+      </h3>
+      <strong>
+        Registry Expiration: 
+      </strong>
+      2021-09-20T20:37:09.391Z
+      <br />
+      <br />
+      <strong>
+        Registry Expiration: 
+      </strong>
+      2021-09-20T20:37:09.391Z
+      <br />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DomainInfoCard renders correctly with missing nameservers 1`] = `
+<div
+  className="accordion-item"
+>
+  <h2
+    className="accordion-header"
+  >
+    <button
+      aria-expanded={false}
+      className="accordion-button collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      Domain Information
+    </button>
+  </h2>
+  <div
+    aria-expanded={null}
+    className="accordion-collapse collapse"
+  >
+    <div
+      className="accordion-body"
+    >
+      <strong>
+        Name: 
+      </strong>
+      DomainName
+      <br />
+      <br />
+      <strong>
+        Domain Status: 
+      </strong>
+      <br />
+      <span>
+         
+        status1
+        <br />
+      </span>
+      <span>
+         
+        status2
+        <br />
+      </span>
+      <span>
+         
+        status3
+        <br />
+      </span>
+      <span>
+         
+        status4
+        <br />
+      </span>
+      <br />
+      <br />
+      <strong>
+        Nameservers: 
+      </strong>
+      <br />
+      <br />
+      <br />
+      <h3>
+        Dates
+      </h3>
+      <strong>
+        Registry Expiration: 
+      </strong>
+      2021-09-20T20:37:09.391Z
+      <br />
+      <br />
+      <strong>
+        Registry Expiration: 
+      </strong>
+      2021-09-20T20:37:09.391Z
+      <br />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DomainInfoCard renders correctly with missing one status 1`] = `
+<div
+  className="accordion-item"
+>
+  <h2
+    className="accordion-header"
+  >
+    <button
+      aria-expanded={false}
+      className="accordion-button collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      Domain Information
+    </button>
+  </h2>
+  <div
+    aria-expanded={null}
+    className="accordion-collapse collapse"
+  >
+    <div
+      className="accordion-body"
+    >
+      <strong>
+        Name: 
+      </strong>
+      DomainName
+      <br />
+      <br />
+      <strong>
+        Domain Status: 
+      </strong>
+      <br />
+      <span>
+         
+        status1
+        <br />
+      </span>
+      <br />
+      <br />
+      <strong>
+        Nameservers: 
+      </strong>
+      <br />
+      <span>
+         
+        server1
+        <br />
+      </span>
+      <span>
+         
+        server2
+        <br />
+      </span>
+      <span>
+         
+        server3
+        <br />
+      </span>
+      <span>
+         
+        server4
+        <br />
+      </span>
+      <br />
+      <br />
+      <h3>
+        Dates
+      </h3>
+      <strong>
+        Registry Expiration: 
+      </strong>
+      2021-09-20T20:37:09.391Z
+      <br />
+      <br />
+      <strong>
+        Registry Expiration: 
+      </strong>
+      2021-09-20T20:37:09.391Z
+      <br />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DomainInfoCard renders correctly with missing statuses 1`] = `
+<div
+  className="accordion-item"
+>
+  <h2
+    className="accordion-header"
+  >
+    <button
+      aria-expanded={false}
+      className="accordion-button collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      Domain Information
+    </button>
+  </h2>
+  <div
+    aria-expanded={null}
+    className="accordion-collapse collapse"
+  >
+    <div
+      className="accordion-body"
+    >
+      <strong>
+        Name: 
+      </strong>
+      DomainName
+      <br />
+      <br />
+      <strong>
+        Domain Status: 
+      </strong>
+      <br />
+      <br />
+      <br />
+      <strong>
+        Nameservers: 
+      </strong>
+      <br />
+      <span>
+         
+        server1
+        <br />
+      </span>
+      <span>
+         
+        server2
+        <br />
+      </span>
+      <span>
+         
+        server3
+        <br />
+      </span>
+      <span>
+         
+        server4
+        <br />
+      </span>
+      <br />
+      <br />
+      <h3>
+        Dates
+      </h3>
+      <strong>
+        Registry Expiration: 
+      </strong>
+      2021-09-20T20:37:09.391Z
+      <br />
+      <br />
+      <strong>
+        Registry Expiration: 
+      </strong>
+      2021-09-20T20:37:09.391Z
+      <br />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DomainInfoCard renders correctly with one server 1`] = `
+<div
+  className="accordion-item"
+>
+  <h2
+    className="accordion-header"
+  >
+    <button
+      aria-expanded={false}
+      className="accordion-button collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      Domain Information
+    </button>
+  </h2>
+  <div
+    aria-expanded={null}
+    className="accordion-collapse collapse"
+  >
+    <div
+      className="accordion-body"
+    >
+      <strong>
+        Name: 
+      </strong>
+      DomainName
+      <br />
+      <br />
+      <strong>
+        Domain Status: 
+      </strong>
+      <br />
+      <span>
+         
+        status1
+        <br />
+      </span>
+      <span>
+         
+        status2
+        <br />
+      </span>
+      <span>
+         
+        status3
+        <br />
+      </span>
+      <span>
+         
+        status4
+        <br />
+      </span>
+      <br />
+      <br />
+      <strong>
+        Nameservers: 
+      </strong>
+      <br />
+      <span>
+         
+        server1
+        <br />
+      </span>
+      <br />
+      <br />
+      <h3>
+        Dates
+      </h3>
+      <strong>
+        Registry Expiration: 
+      </strong>
+      2021-09-20T20:37:09.391Z
+      <br />
+      <br />
+      <strong>
+        Registry Expiration: 
+      </strong>
+      2021-09-20T20:37:09.391Z
+      <br />
+    </div>
+  </div>
+</div>
+`;

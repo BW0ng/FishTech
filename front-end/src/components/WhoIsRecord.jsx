@@ -1,5 +1,5 @@
 
-import { useQuery } from '@apollo/react-hooks';
+import { useQuery } from '@apollo/client';
 import gql from "graphql-tag";
 import DomainInfoCard from "../components/DomainInfoCard"
 import ContactCard from "../components/ContactCard"
@@ -7,8 +7,7 @@ import RegistrarCard from "../components/RegistrarCard"
 import { Accordion } from "react-bootstrap";
 import "../css/card.css";
 
-function WhoisRecord(domainName) {
-    const GET_WHOIS_QUERY = gql`
+export const GET_WHOIS_QUERY = gql`
         query WhoIsRecordQuery($domain: String!) {
             whoIsByDomain(name: $domain) {
                 WhoisRecord {
@@ -49,6 +48,8 @@ function WhoisRecord(domainName) {
             }
         }
     `
+function WhoisRecord(domainName) {
+    
     const { loading, error, data } = useQuery(GET_WHOIS_QUERY, { variables: { domain: domainName.domainName }})
     if (loading) {
         return (

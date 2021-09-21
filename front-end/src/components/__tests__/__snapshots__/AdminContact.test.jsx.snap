@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminContact does not renders when data missing 1`] = `null`;
+
+exports[`AdminContact renders correctly with full data output 1`] = `
+<div
+  className="accordion-item"
+>
+  <h2
+    className="accordion-header"
+  >
+    <button
+      aria-expanded={false}
+      className="accordion-button collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      Administration Contact
+    </button>
+  </h2>
+  <div
+    aria-expanded={null}
+    className="accordion-collapse collapse"
+  >
+    <div
+      className="accordion-body"
+    >
+      <strong>
+        Organization: 
+      </strong>
+      Organization
+      <br />
+      <strong>
+        State: 
+      </strong>
+      State
+      <br />
+      <strong>
+        Country: 
+      </strong>
+      Country
+      <br />
+    </div>
+  </div>
+</div>
+`;

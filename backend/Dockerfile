@@ -32,6 +32,4 @@ COPY ["package.json", "./"]
 
 EXPOSE 4000
 
-USER node
-
 CMD ["yarn", "start"]
