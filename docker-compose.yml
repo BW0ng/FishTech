@@ -2,7 +2,7 @@ version: '3'
 
 services:
   backend:
-    image: ${ECR_REGISTRY}/${ECR_BACKEND_REPOSITORY}:${RELEASE_VERSION}
+    image: ${ECR_REGISTRY:-registry}/${ECR_BACKEND_REPOSITORY:-backend-repo}:${RELEASE_VERSION:-dev}
     container_name: "backend"
     build:
       context: ./backend
@@ -12,7 +12,7 @@ services:
     ports:
       - "4000:4000"
   frontend:
-    image: ${ECR_REGISTRY}/${ECR_FRONTEND_REPOSITORY}:${RELEASE_VERSION}
+    image: ${ECR_REGISTRY:-registry}/${ECR_BACKEND_REPOSITORY:-backend-repo}:${RELEASE_VERSION:-dev}
     build:
       context: ./front-end
       dockerfile: ./Dockerfile
